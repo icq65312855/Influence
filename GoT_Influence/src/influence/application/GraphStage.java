@@ -37,13 +37,15 @@ public class GraphStage {
 		this.primaryStage = stage;
 		this.primaryStage.setTitle("Expansion of influence into fan-pages     © Muidinov Aider");
 		
-		this.primaryStage.getIcons().add(new Image("file:resources/images/Limewire.png"));
-		
 		graph = new FacebookGraph();
 		
 		initRootLayout();
 		showApplicationOverview();
 		
+	}
+	
+	public void setIcon(Image image) {
+		this.primaryStage.getIcons().add(image);
 	}
 	
 	/**

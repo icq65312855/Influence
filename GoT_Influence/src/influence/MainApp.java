@@ -3,6 +3,7 @@ package influence;
 
 import influence.application.GraphStage;
 import javafx.application.Application;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 /**
@@ -18,7 +19,8 @@ public class MainApp extends Application {
      */
 	@Override
 	public void start(Stage primaryStage) {
-		new GraphStage(primaryStage);
+		GraphStage graphStage = new GraphStage(primaryStage);
+		graphStage.setIcon(new Image("file:resources/images/Limewire.png"));
 	}
 
 	public static void main(String[] args) {
