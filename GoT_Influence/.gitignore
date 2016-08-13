@@ -3,5 +3,6 @@
 /Capstone_Influence.zip
 /build.fxbuild
 *.DS_Store
+*.project
 .settings/
 .classpath
