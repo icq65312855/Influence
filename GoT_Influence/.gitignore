@@ -2,7 +2,6 @@
 /build/
 /Capstone_Influence.zip
 /build.fxbuild
-.DS_Store
-/GoT_Influence/.DS_Store
-/.settings
+*.DS_Store
+.settings/
 .classpath
