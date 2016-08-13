@@ -44,8 +44,8 @@ public class GraphStage {
 		
 	}
 	
-	public void setIcon(Image image) {
-		this.primaryStage.getIcons().add(image);
+	public void setIcon(String path) {
+		this.primaryStage.getIcons().add(new Image("file:resources/"+path));
 	}
 	
 	/**
